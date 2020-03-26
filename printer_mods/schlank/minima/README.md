@@ -1,5 +1,5 @@
 # Minima - Minimalistic mount for Fysetc Mini 12864.
-![Installed](img/installed.png)
+![Installed](img/installed.jpg)
 ![Front View](img/front.jpg)
 ![Back View](img/back.jpg)
 
@@ -9,12 +9,12 @@ If you like minimalistic and simple design this mod is for you. Only two printed
 ## BOM
 * 1x [Fysetc Mini12864 Display](https://www.aliexpress.com/item/32972382466.html)
 * 6x M3x6 Socket head screws. 
-  * M3x8 could also be used but you need to use printed spacers instead of washers.
+  * M3x8 SHCS could also be used but you need to use printed spacers instead of washers.
 * 4x M3 Washers
 * Super-glue or similar
 
 ## Printing instructions
-The model is easy to print, no special tricks required. Use 0.4mm line with and 0.2 layer height when slicing the model, no cooling needed. Print base part in your main color, cover part in your accent color. You also need to print front skirts from the mod's folder, choose the ones which will fit your printer. If you use M3x8 screws print 4 spacers and use it instead of washers.
+The model is easy to print, no special tricks required. Use 0.4mm line with and 0.2 layer height when slicing the model, no cooling needed. Print base part in your main color, cover part in your accent color. New front skirts should also be printed, you can find them in the mod's folder. Choose the ones which will fit your printer's dimensions. If you use M3x8 screws print 4 spacers and use it instead of washers.
 
 ## Installation instructions
 1. Glue cover to the base with super-glue.
@@ -37,7 +37,7 @@ click_pin: ^!z:P0.28
 contrast: 63
 
 ```
-Two revisions of Fysetc Mini12864 display are exist:
+There are two revisions of Fysetc Mini12864 display:
 * Version 2.1 - with Neopixel RGB LED
 * Version 2.0 - with ordinary LEDs
 
@@ -51,7 +51,7 @@ initial_GREEN: 0.5
 initial_BLUE: 0.0
 color_order_GRB: False
 ```
-To control backlight for Version 2.0 following section could be used:
+To control  Version 2.0 backlight following section should be added:
 ```
 [output_pin display_led_red]
 pin: z:P1.21
