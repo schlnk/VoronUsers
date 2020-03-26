@@ -1,4 +1,4 @@
-# Minima - Minimalistic mount for Fysetc Mini 12864.
+# Minima - Minimalistic mount for Fysetc Mini 12864
 ![Installed](img/installed.jpg)
 ![Front View](img/front.jpg)
 ![Back View](img/back.jpg)
